@@ -77,13 +77,13 @@ function App() {
           </button>
         </div>
 
-        <main className="max-w-2xl mx-auto">
+        <main className="max-w-2xl mx-auto pt-10 md:pt-0">
           <div className={`${themeClasses.cardBg} rounded-[2rem] p-8 shadow-xl border border-white/10 transition-all duration-500 ring-1 ring-white/10`}>
             <div className="relative mb-4 flex justify-center">
               <div className={`inline-block ${themeClasses.cardPlaceholder} rounded-[2rem] p-3 shadow-md transition-all duration-500`}>
                 {!generatedImageUrl ? (
                   <div className="text-center p-8 flex items-center justify-center flex-col animate-fade-in">
-                    <img src="/assets/logo2.png" className="size-80 mb-4" alt="Placeholder Icon" />
+                    <img src="/assets/logo2.png" className=" md:size-80 mb-4" alt="Placeholder Icon" />
                     <p className={`${themeClasses.text.primary} text-lg font-bold`}>Your random Summoner Card awaits!</p>
                     <p className={`${themeClasses.text.secondary} text-sm mt-2`}>Enter your Summoner Name and forge your random card</p>
                   </div>
