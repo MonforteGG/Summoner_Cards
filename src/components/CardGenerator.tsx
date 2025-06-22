@@ -79,7 +79,7 @@ const CardGenerator: React.FC<CardGeneratorProps> = ({
           onKeyPress={handleKeyPress}
           placeholder="Enter your Summoner Name"
           disabled={isGenerating}
-          className={`w-full pl-12 pr-4 py-4 rounded-2xl border-2 backdrop-blur-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-400/50 text-lg font-medium ${themeClasses.input} disabled:opacity-50 disabled:cursor-not-allowed`}
+          className={`w-full pl-12 pr-4 py-4 rounded-2xl border-2 backdrop-blur-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-400/50 text-base md:text-lg font-medium ${themeClasses.input} disabled:opacity-50 disabled:cursor-not-allowed`}
         />
       </div>
 
