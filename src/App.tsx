@@ -28,8 +28,9 @@ function App() {
     setGeneratedImageUrl(imageUrl);
   };
 
+  
   const shareOnX = () => {
-    const text = "Check out my awesome League of Legends Summoner Card! ⚔️ #LeagueOfLegends #SummonerCard";
+    const text = "I just forged my random Summoner Card ⚔️ #LeagueOfLegends #SummonerCard Create yours here:";
     const url = window.location.href;
     const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
     window.open(xUrl, '_blank');
