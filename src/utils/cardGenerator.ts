@@ -112,7 +112,7 @@ function drawText(
 }
 
 export async function generateCardImage(cardData: CardData): Promise<string> {
-  console.log('[DEBUG] CardData:', cardData);
+  // console.log('[DEBUG] CardData:', cardData);
   await ensureFontLoaded();
 
   const canvas = document.createElement('canvas');
