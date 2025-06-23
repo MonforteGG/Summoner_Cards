@@ -1,4 +1,4 @@
-```markdown
+
 # 🧙 Summoner Cards - LoL Card Generator
 
 **Summoner Cards** es una web app generadora de cartas de jugador estilo *League of Legends*, 100% cliente, sin backend. Genera una carta visual única a partir de un nombre de invocador, asignando de forma aleatoria rol, elo, campeones e ítems, y la convierte en una imagen compartible.
@@ -31,7 +31,7 @@
    ```bash
    git clone https://github.com/tuusuario/summoner-cards.git
    cd summoner-cards
-   ```
+   
 
 2. Instala las dependencias:
    ```bash
@@ -59,5 +59,3 @@
 ---
 
 
----
-```
