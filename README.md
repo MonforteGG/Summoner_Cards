@@ -1,6 +1,9 @@
 
 # 🧙 Summoner Cards - LoL Card Generator
 
+![image](https://github.com/user-attachments/assets/b5cf6802-6e4c-4053-ae56-01994c90075b)
+
+
 **Summoner Cards** es una web app generadora de cartas de jugador estilo *League of Legends*, 100% cliente, sin backend. Genera una carta visual única a partir de un nombre de invocador, asignando de forma aleatoria rol, elo, campeones e ítems, y la convierte en una imagen compartible.
 
 ## ✨ Demo
